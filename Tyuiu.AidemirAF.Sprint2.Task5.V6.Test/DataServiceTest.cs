@@ -9,15 +9,15 @@ namespace Tyuiu.AidemirAF.Sprint2.Task5.V6.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            Assert.AreEqual("Шестерка пики", ds.FindCardNameAndValue(1, 6));
-            Assert.AreEqual("Семерка пики", ds.FindCardNameAndValue(1, 7));
-            Assert.AreEqual("Восьмерка пики", ds.FindCardNameAndValue(1, 8));
-            Assert.AreEqual("Девятка пики", ds.FindCardNameAndValue(1, 9));
-            Assert.AreEqual("Десятка пики", ds.FindCardNameAndValue(1, 10));
-            Assert.AreEqual("Валет пики", ds.FindCardNameAndValue(1, 11));
-            Assert.AreEqual("Дама пики", ds.FindCardNameAndValue(1, 12));
-            Assert.AreEqual("Король пики", ds.FindCardNameAndValue(1, 13));
-            Assert.AreEqual("Туз пики", ds.FindCardNameAndValue(1, 14));
+            Assert.AreEqual("Шестерка пик", ds.FindCardNameAndValue(1, 6));
+            Assert.AreEqual("Семерка пик", ds.FindCardNameAndValue(1, 7));
+            Assert.AreEqual("Восьмерка пик", ds.FindCardNameAndValue(1, 8));
+            Assert.AreEqual("Девятка пик", ds.FindCardNameAndValue(1, 9));
+            Assert.AreEqual("Десятка пик", ds.FindCardNameAndValue(1, 10));
+            Assert.AreEqual("Валет пик", ds.FindCardNameAndValue(1, 11));
+            Assert.AreEqual("Дама пик", ds.FindCardNameAndValue(1, 12));
+            Assert.AreEqual("Король пик", ds.FindCardNameAndValue(1, 13));
+            Assert.AreEqual("Туз пик", ds.FindCardNameAndValue(1, 14));
 
             Assert.AreEqual("Шестерка трефы", ds.FindCardNameAndValue(2, 6));
             Assert.AreEqual("Семерка трефы", ds.FindCardNameAndValue(2, 7));

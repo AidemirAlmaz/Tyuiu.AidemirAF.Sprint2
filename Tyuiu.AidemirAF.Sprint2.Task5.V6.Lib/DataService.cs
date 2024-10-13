@@ -10,31 +10,31 @@ namespace Tyuiu.AidemirAF.Sprint2.Task5.V6.Lib
             switch (value1, value2)
             {
                 case (1, 6):
-                    res = "Шестерка пики";
+                    res = "Шестерка пик";
                     break;
                 case (1, 7):
-                    res = "Семерка пики";
+                    res = "Семерка пик";
                     break;
                 case (1, 8):
-                    res = "Восьмерка пики";
+                    res = "Восьмерка пик";
                     break;
                 case (1, 9):
-                    res = "Девятка пики";
+                    res = "Девятка пик";
                     break;
                 case (1, 10):
-                    res = "Десятка пики";
+                    res = "Десятка пик";
                     break;
                 case (1, 11):
-                    res = "Валет пики";
+                    res = "Валет пик";
                     break;
                 case (1, 12):
-                    res = "Дама пики";
+                    res = "Дама пик";
                     break;
                 case (1, 13):
-                    res = "Король пики";
+                    res = "Король пик";
                     break;
                 case (1, 14):
-                    res = "Туз пики";
+                    res = "Туз пик";
                     break;
                 case (2, 6):
                     res = "Шестерка трефы";
