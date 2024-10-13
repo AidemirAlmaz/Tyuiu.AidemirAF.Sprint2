@@ -15,7 +15,7 @@ namespace Tyuiu.AidemirAF.Sprint2.Task5.V6.Test
             Assert.AreEqual("Девятка пик", ds.FindCardNameAndValue(1, 9));
             Assert.AreEqual("Десятка пик", ds.FindCardNameAndValue(1, 10));
             Assert.AreEqual("Валет пик", ds.FindCardNameAndValue(1, 11));
-            Assert.AreEqual("Дама пик", ds.FindCardNameAndValue(1, 12));
+            Assert.AreEqual("дама пик", ds.FindCardNameAndValue(1, 12));
             Assert.AreEqual("Король пик", ds.FindCardNameAndValue(1, 13));
             Assert.AreEqual("Туз пик", ds.FindCardNameAndValue(1, 14));
 

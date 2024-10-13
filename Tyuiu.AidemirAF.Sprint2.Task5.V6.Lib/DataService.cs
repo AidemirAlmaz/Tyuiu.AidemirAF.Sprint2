@@ -28,7 +28,7 @@ namespace Tyuiu.AidemirAF.Sprint2.Task5.V6.Lib
                     res = "Валет пик";
                     break;
                 case (1, 12):
-                    res = "Дама пик";
+                    res = "дама пик";
                     break;
                 case (1, 13):
                     res = "Король пик";
