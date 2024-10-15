@@ -25,7 +25,7 @@ namespace Tyuiu.AidemirAF.Sprint2.Task6.V13
             Console.WriteLine("Введите число: ");
             int g = Convert.ToInt32(Console.ReadLine());
 
-            if ((n % 4 != 0))
+            if ((n % 4 != 0) && ((n % 100 != 0) && (n % 400 != 0)))
             {
                 Console.WriteLine("Год не является високосным");
             }
@@ -40,9 +40,13 @@ namespace Tyuiu.AidemirAF.Sprint2.Task6.V13
             {
                 daysInMonth = 30;
             }
-            else 
+            else if (m == 1 || m == 3 || m == 5 || m == 7 || m == 8 || m == 10 || m == 12)
             {
                 daysInMonth = 31;
+            }
+            else
+            {
+                daysInMonth = 0;
             }
 
             int NextDay, NextMonth, NextYear;
