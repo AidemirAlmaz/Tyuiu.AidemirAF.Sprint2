@@ -29,50 +29,9 @@ namespace Tyuiu.AidemirAF.Sprint2.Task6.V13
             {
                 Console.WriteLine("Год не является високосным");
             }
-
             string res;
-            {
-
-                int daysInMonth;
-                if (m == 2)
-                {
-                    daysInMonth = 29;
-                }
-                else if (m == 4 || m == 6 || m == 9 || m == 11)
-                {
-                    daysInMonth = 30;
-                }
-                else if (m == 1 || m == 3 || m == 5 || m == 7 || m == 8 || m == 10 || m == 12)
-                {
-                    daysInMonth = 31;
-                }
-                else
-                {
-                    daysInMonth = 0;
-                }
-
-                int NextDay, NextMonth, NextYear;
-
-                if (g == daysInMonth)
-                {
-                    if (m == 12)
-                    {
-                        NextDay = 1;
-                        NextMonth = 1;
-                        NextYear = n + 1;
-                    }
-                    else
-                    {
-                        NextDay = 1;
-                        NextMonth = m + 1;
-                        NextYear = n;
-                    }
-                }
-                else
-                {
-                    res = ds.FindDateOfNextDay(g, m, n);
-                }
-            }
+            res = ds.FindDateOfNextDay(g, m, n);
+            
             Console.WriteLine("*****************************************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                                        *");
             Console.WriteLine("*****************************************************************************************************");
