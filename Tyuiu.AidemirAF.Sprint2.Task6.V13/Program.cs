@@ -18,11 +18,11 @@ namespace Tyuiu.AidemirAF.Sprint2.Task6.V13
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                                                  *");
             Console.WriteLine("*****************************************************************************************************");
 
-            Console.WriteLine("Введите год: ");
+            Console.WriteLine("Введите число: ");
             int n = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите порядковый номер месяца: ");
             int m = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите число: ");
+            Console.WriteLine("Введите год: ");
             int g = Convert.ToInt32(Console.ReadLine());
 
             if ((n % 4 != 0) && ((n % 100 != 0) && (n % 400 != 0)))

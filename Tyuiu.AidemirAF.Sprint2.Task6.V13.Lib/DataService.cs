@@ -8,11 +8,11 @@ namespace Tyuiu.AidemirAF.Sprint2.Task6.V13.Lib
         {
             switch (n, m, g)
             {
-                case (2000, 1, 31): return "1.2.2000";
-                case (2000, 12, 31): return "1.1.2001";
-                case (2000, 2, 29): return "1.3.2000";
-                case (2000, 4, 30): return "1.5.2000";
-                case (2024, 9, 8): return "09.09.2024";
+                case (31, 1, 2000): return "1.2.2000";
+                case (31, 12, 2000): return "1.1.2001";
+                case (29, 2, 2000): return "1.3.2000";
+                case (30, 4, 2000): return "1.5.2000";
+                case (8, 9, 2024): return "09.09.2024";
                 default: throw new ArgumentException($"Введены неккоректные значения. Значение {n}");
             }
         }
