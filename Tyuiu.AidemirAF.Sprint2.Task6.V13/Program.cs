@@ -25,7 +25,7 @@ namespace Tyuiu.AidemirAF.Sprint2.Task6.V13
             Console.WriteLine("Введите число: ");
             int g = Convert.ToInt32(Console.ReadLine());
 
-            if ((n % 400 != 0) || ((n % 4 != 0) && (n % 100 == 0)))
+            if ((n % 4 != 0))
             {
                 Console.WriteLine("Год не является високосным");
             }
