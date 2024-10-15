@@ -72,7 +72,7 @@ namespace Tyuiu.AidemirAF.Sprint2.Task6.V13
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                                        *");
             Console.WriteLine("*****************************************************************************************************");
 
-            Console.WriteLine("Следующий день - " + NextDay + "." + NextMonth + "." + NextYear);
+            Console.WriteLine(NextDay + "." + NextMonth + "." + NextYear);
             Console.ReadKey();
         }
     }
