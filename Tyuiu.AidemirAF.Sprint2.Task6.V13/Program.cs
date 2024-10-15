@@ -13,7 +13,7 @@ namespace Tyuiu.AidemirAF.Sprint2.Task6.V13
         static void Main(string[] args)
         {
             
-
+            DataService ds = new DataService();
             Console.WriteLine("*****************************************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                                                  *");
             Console.WriteLine("*****************************************************************************************************");
@@ -76,7 +76,7 @@ namespace Tyuiu.AidemirAF.Sprint2.Task6.V13
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                                        *");
             Console.WriteLine("*****************************************************************************************************");
 
-            Console.WriteLine("0" + NextDay + "." + "0" + NextMonth + "." + NextYear);
+            Console.WriteLine(NextDay + "." + NextMonth + "." + NextYear);
             Console.ReadKey();
         }
     }
