@@ -18,14 +18,14 @@ namespace Tyuiu.AidemirAF.Sprint2.Task6.V13
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                                                  *");
             Console.WriteLine("*****************************************************************************************************");
 
-            Console.WriteLine("Введите число: ");
+            Console.WriteLine("Введите год: ");
             int n = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите порядковый номер месяца: ");
             int m = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите год: ");
+            Console.WriteLine("Введите число: ");
             int g = Convert.ToInt32(Console.ReadLine());
 
-            if ((g % 400 != 0) || ((g % 4 != 0) && (g % 100 == 0)))
+            if ((n % 400 != 0) || ((n % 4 != 0) && (n % 100 == 0)))
             {
                 Console.WriteLine("Год не является високосным");
             }
@@ -46,26 +46,26 @@ namespace Tyuiu.AidemirAF.Sprint2.Task6.V13
             }
 
             int NextDay, NextMonth, NextYear;
-            if (n == daysInMonth)
+            if (g == daysInMonth)
             {
                 if (m == 12)
                 {
                     NextDay = 1;
                     NextMonth = 1;
-                    NextYear = g + 1;
+                    NextYear = n + 1;
                 }
                 else
                 {
                     NextDay = 1;
                     NextMonth = m + 1;
-                    NextYear = g;
+                    NextYear = n;
                 }
             }
             else 
             {
-                NextDay = n + 1;
+                NextDay = g + 1;
                 NextMonth = m;
-                NextYear = g;
+                NextYear = n;
             }
 
             Console.WriteLine("*****************************************************************************************************");
